@@ -43,6 +43,7 @@ namespace MyBlog.Controllers
             if (comments == null)
             {
                 return NotFound();
+                
             }
 
             return View(comments);
